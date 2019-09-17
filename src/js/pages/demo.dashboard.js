@@ -239,7 +239,10 @@
                             color: "rgba(0,0,0,0.01)"
                         }
                     }]
-                }
+                },
+                legend: {
+                    position: 'bottom'
+                },
             };
 
             charts.push(this.respChart($("#high-performing-product"), 'Bar', barChart, barOpts));
