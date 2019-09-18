@@ -142,11 +142,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1686B4;
+  color: #727cf5;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #1686B4;
+    color: #2b3af0;
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -2078,31 +2078,26 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
 
-#blue {
-  background-color: #1686B4;
-  border-color: #1686B4;
-}
-
 .btn-primary {
   color: #fff;
-  background-color: #1686B4;
-  border-color: #1686B4; }
+  background-color: #727cf5;
+  border-color: #727cf5; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #1686B4;
-    border-color: #1686B4; }
+    background-color: #4e5bf2;
+    border-color: #4250f2; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(135, 144, 247, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(135, 144, 247, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #1686B4;
-    border-color: #1686B4; }
+    background-color: #727cf5;
+    border-color: #727cf5; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #1686B4;
-    border-color: #1686B4; }
+    background-color: #4250f2;
+    border-color: #3645f1; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(135, 144, 247, 0.5);
@@ -2469,7 +2464,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #1686B4;
+  color: #727cf5;
   text-decoration: none; }
   .btn-link:hover {
     color: #2b3af0;
@@ -12852,11 +12847,3 @@ body[data-leftbar-theme="dark"] .side-nav .side-nav-forth-level li.active > a {
   line-height: 18px !important;
   font-family: "Nunito", sans-serif !important;
   font-weight: 700 !important; }
-
-  #title{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
