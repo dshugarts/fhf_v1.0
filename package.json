@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp",
-    "start": "node app",
+    "start": "node gulpfile.js",
     "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
