@@ -111,6 +111,7 @@
     // init various charts and returns
     Dashboard.prototype.initCharts = function() {
         var charts = [];
+        
         if ($('#revenue-chart').length > 0) {
             var lineChart = {
                 labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
@@ -185,10 +186,10 @@
                 datasets: [
                     {
                         label: "Core | 6 Level",
-                        backgroundColor: gradientStroke,
-                        borderColor: gradientStroke,
-                        hoverBackgroundColor: gradientStroke,
-                        hoverBorderColor: gradientStroke,
+                        backgroundColor: 'rgba(22,134,180,1.0)',
+                        borderColor: 'rgba(22,134,180,1.0)',
+                        hoverBackgroundColor: 'rgba(22,134,180,1.0)',
+                        hoverBorderColor: 'rgba(22,134,180,1.0)',
                         data: [23, 26, 30, 32, 34, 28]
                     },
                     {
@@ -207,11 +208,11 @@
                     display: false
                 },
                 tooltips: {
-                    backgroundColor: 'rgba(22,134,180,1.0)',
-                    titleFontColor: '#fff',
-                    bodyFontColor: '#fff',
+                    backgroundColor: '#FFF',
+                    titleFontColor: 'black',
+                    bodyFontColor: 'grey',
                     bodyFontSize: 14,
-                    displayColors: false
+                    displayColors: true
                 },
                 scales: {
                     yAxes: [{
