@@ -1,16 +1,16 @@
 {
-  "name": "hyper",
-  "version": "1.6.0",
-  "description": "Fully responsive web application ui kit",
+  "name": "demo",
+  "version": "1.10",
+  "description": "Dashboard Demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "coderthemes",
+  "author": "daniel",
   "repository": {
-    "url": "http://coderthemes.com/hyper"
+    "url": ""
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "braces": "^2.3.2",
     "browser-sync": "^2.26.5",
